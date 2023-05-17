@@ -1,0 +1,39 @@
+.profile-main {
+  padding: 15px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.card {
+  position: absolute;
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  overflow: hidden;
+}
+
+.profile-content {
+  margin-top: 100px;
+  margin-left: 350px;
+  background-color: lightgray;
+  overflow: hidden;
+  display: flex;
+}
+
+.myprofile {
+  text-align: center;
+}
+
+.buttons {
+  text-align: center;
+  align-items: center;
+}
+
+.buttons button {
+  background-color: #203647;
+  margin: 5px;
+}
+
+/* .ptext {
+  font-size: 14px;
+  color: red;
+} */

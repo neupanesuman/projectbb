@@ -1,0 +1,32 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: "Encode Sans Expanded", sans-serif;
+}
+
+:root {
+  --text-color: #8b0000;
+  --background-color: #f08080;
+  --background-color1: rgb(245, 50, 93);
+  --background-color2: linear-gradient(
+    90deg,
+    rgba(245, 50, 93, 1) 0%,
+    rgba(255, 8, 91, 1) 35%,
+    rgba(240, 55, 55, 1) 90%
+  );
+}
+
+::-webkit-scrollbar {
+  display: none;
+}
+
+.link {
+  text-decoration: none;
+  color: inherit;
+}
+
+.container {
+  display: flex;
+  margin-top: 10px;
+}

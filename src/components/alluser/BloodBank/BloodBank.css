@@ -1,0 +1,69 @@
+.bloodbank_table {
+  background: var(--background-color);
+  padding-top: 30px;
+  padding-bottom: 30px;
+}
+
+table.redTable {
+  border: 2px solid #a40808;
+  border-radius: 10px;
+  width: 80%;
+  text-align: center;
+  border-collapse: separate;
+  margin-left: 120px;
+  background-color: var(--background-color);
+  backdrop-filter: blur(8px);
+  -webkit-backdrop-filter: blur(8px);
+  box-shadow: rgba(14, 14, 14, 0.19) 0px 60px 155px 0px;
+  -webkit-box-shadow: rgba(14, 14, 14, 0.19) 0px 60px 155px 0px;
+  -webkit-border-radius: 5px;
+  color: rgb(128, 128, 128);
+  table-layout: auto;
+}
+
+table.redTable caption {
+  border: 2px solid #8b0000;
+  font-size: 3vw;
+  font-weight: 400;
+  color: white;
+  border-radius: 2px;
+  background-color: var(--background-color);
+  backdrop-filter: blur(8px);
+  -webkit-backdrop-filter: blur(8px);
+  box-shadow: rgba(14, 14, 14, 0.19) 0px 60px 155px 0px;
+  -webkit-box-shadow: rgba(14, 14, 14, 0.19) 0px 60px 155px 0px;
+  -webkit-border-radius: 5px;
+}
+
+table.redTable td,
+table.redTable th {
+  border: 1px solid #8b0000;
+  padding: 3px 2px;
+}
+
+table.redTable tbody td {
+  font-size: 1.5vw;
+  color: var(--text-color);
+}
+table.redTable tr:nth-child(even) {
+  background: #f5c8bf;
+}
+table.redTable thead {
+  background: #a40808;
+}
+table.redTable thead th {
+  font-size: 1.5vw;
+  font-weight: 550;
+  color: #ffffff;
+  text-align: center;
+  border-left: 2px solid #a40808;
+}
+table.redTable thead th:first-child {
+  border-left: none;
+}
+
+@media screen and (max-width: 768px) {
+  table.redTable {
+    margin-left: 50px;
+  }
+}

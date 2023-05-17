@@ -1,0 +1,63 @@
+.about_container {
+  background: var(--background-color);
+  display: flex;
+  align-items: center;
+  height: 100%;
+}
+
+.about_writing {
+  width: 600px;
+  margin: 45px;
+}
+
+.about_heading {
+  margin-top: -30px;
+  margin-left: 180px;
+  color: #fff;
+  font-size: 30px;
+  margin-bottom: 5px;
+}
+
+.about_para {
+  color: var(--text-color);
+  font-size: 20px;
+  background: rgba(255, 255, 255, 0.35);
+  box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
+  backdrop-filter: blur(1.5px);
+  -webkit-backdrop-filter: blur(1.5px);
+  border-radius: 10px;
+  border: 1px solid rgba(255, 255, 255, 0.18);
+  padding: 30px 20px;
+}
+
+.about_que {
+  margin-left: 120px;
+  color: #fff;
+  font-size: 30px;
+  margin-top: 30px;
+  margin-bottom: 5px;
+}
+
+.about_ans {
+  color: var(--text-color);
+  font-size: 20px;
+  background: rgba(255, 255, 255, 0.35);
+  box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
+  backdrop-filter: blur(1.5px);
+  -webkit-backdrop-filter: blur(1.5px);
+  border-radius: 10px;
+  border: 1px solid rgba(255, 255, 255, 0.18);
+  padding: 30px 20px;
+}
+
+.about_image {
+  margin-left: 130px;
+}
+
+@media screen and (max-width: 768px) {
+  .about_img {
+    margin-left: 0;
+    max-width: 100%;
+    height: auto;
+  }
+}

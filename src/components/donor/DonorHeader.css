@@ -1,0 +1,125 @@
+.second {
+  margin: 0;
+  padding: 0;
+  font-family: "Times New Roman", Times, serif;
+  display: flex;
+}
+
+.profileHeaderrr {
+  position: fixed;
+  background: #aa0000;
+  padding: 20px;
+  width: 100%;
+  height: 70px;
+  z-index: 1;
+}
+
+.adminSidebarr {
+  background: #f72f2f;
+  margin-top: 70px;
+  padding-top: 30px;
+  position: fixed;
+  left: 0;
+  width: 250px;
+  height: 100%;
+  transition: 0.5s;
+  transition-property: left;
+}
+
+.adminSidebarr .profile_imagee {
+  width: 100px;
+  height: 100px;
+  border-radius: 100px;
+  margin-bottom: 10px;
+}
+
+.adminSidebarr h4 {
+  color: #ccc;
+  margin-top: 0;
+  margin-bottom: 20px;
+}
+
+.adminSidebarr a {
+  color: #fff;
+  display: block;
+  width: 100%;
+  line-height: 60px;
+  text-decoration: none;
+  padding-left: 40px;
+  box-sizing: border-box;
+  transition: 0.5s;
+  transition-property: background;
+}
+
+.adminSidebarr a:hover {
+  background: #830303;
+}
+
+.adminSidebarr i {
+  padding-right: 10px;
+}
+
+label #sidebar_btn {
+  z-index: 1;
+  color: #fff;
+  position: fixed;
+  cursor: pointer;
+  left: 300px;
+  font-size: 20px;
+  margin: 5px 0;
+  transition: 0.5s;
+  transition-property: color;
+}
+
+label #side_btn:hover {
+  color: #1983d3;
+}
+
+#check:checked ~ .adminSidebarr {
+  left: -190px;
+}
+
+#check:checked ~ .adminSidebarr a span {
+  display: none;
+}
+
+#check:checked ~ .adminSidebarr a {
+  font-size: 20px;
+  margin-left: 170px;
+  width: 80px;
+}
+
+#check {
+  display: none;
+}
+
+.logout_btnn {
+  padding: 5px;
+  background: #1983d3;
+  text-decoration: none;
+  float: right;
+  margin-top: -20px;
+  margin-right: 40px;
+  border-radius: 2px;
+  font-size: 15px;
+  font-weight: 600;
+  color: #fff;
+  transition: 0.5s;
+  transition-property: background;
+}
+
+.logout_btnn:hover {
+  background: #8d90bb;
+}
+
+.left_area h3 {
+  color: #fff;
+  margin: -10px;
+  text-transform: uppercase;
+  font-size: 22px;
+  font-weight: 900;
+}
+
+.left_area span {
+  color: #e71d1d;
+}
